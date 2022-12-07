@@ -1,0 +1,750 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Antonio&family=Poppins&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=Poppins&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=Poppins&family=Roboto+Condensed&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navBlock {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Assets/background\ img.jpg);
+  /* background-image:linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+}
+/* nav bar starts  */
+#navBlock article .navBlock_part {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#navBlock article .navBlock_part .logoBlock {
+  display: flex;
+  align-items: center;
+}
+#navBlock article .navBlock_part .logoBlock i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(64, 14, 14);
+}
+#navBlock article .navBlock_part .logoBlock h2 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(64, 14, 14);
+  text-transform: uppercase;
+}
+/* nav bar ends */
+/* Bicycle part starts */
+.menuBlock {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  top: 25px;
+}
+.menuBlock .bicycle_part a {
+  position: relative;
+  left: 80px;
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(64, 14, 14);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.menuBlock .bicycle_part {
+  margin-right: -60px;
+}
+/* bicycle part ends */
+/* Menu links starts */
+.menuBlock .menuLinks ul {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  position: relative;
+  left: 70px;
+  top: 8px;
+}
+.menuBlock .menuLinks ul li {
+  list-style: none;
+  margin-right: 35px;
+  z-index: 10;
+}
+.menuBlock .menuLinks ul li a {
+  text-decoration: none;
+  color: rgb(64, 14, 14);
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+/* menu link ends here */
+/* Aside paragraph block starts */
+.content_Block {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+}
+.content_Block .content-Para {
+  flex-basis: 50%;
+  height: inherit;
+  position: relative;
+}
+.content_Block .content-Para p {
+  text-transform: uppercase;
+  width: 330px;
+  font-size: 10px;
+  padding: 6px;
+  border: 3px dashed rgb(64, 14, 14);
+  color: rgb(64, 14, 14);
+  font-family: "Alfa Slab One", cursive;
+  position: absolute;
+  left: 0;
+  top: 125px;
+}
+
+.content_Block .content-Para h1 {
+  text-transform: uppercase;
+  font-size: 94px;
+  color: rgb(64, 14, 14);
+  text-shadow: 5px 1px 1px #fff;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 6px;
+  position: absolute;
+  left: 0;
+  top: 145px;
+}
+
+.content_Block .content-Para h2 {
+  text-transform: uppercase;
+  font-size: 64px;
+  color: rgb(64, 14, 14);
+  text-shadow: 5px 1px 1px #fff;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 6px;
+  position: absolute;
+  left: 0;
+  top: 245px;
+}
+/* Aside paragraph block ends here */
+
+/* Aside image block starts */
+.content_Block .content-Image {
+  flex-basis: 50%;
+  height: inherit;
+}
+
+.content-Image {
+  position: relative;
+}
+
+.content-Image .content_image-img1 {
+  width: 350px;
+  height: 310px;
+  position: absolute;
+  top: 120px;
+  right: 150px;
+  z-index: 5;
+}
+
+.content-Image .content_image-img2 {
+  width: 150px;
+  height: 400px;
+  position: absolute;
+  top: 15px;
+  right: 80px;
+}
+.content-Image .content_image-img3 {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 65px;
+  right: 310px;
+  z-index: 3;
+}
+
+.content-Image .content_image-img4 {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: -30px;
+  right: 80px;
+  z-index: 1;
+}
+.content-Image .content_image-img5 {
+  width: 350px;
+  height: 80px;
+  position: absolute;
+  top: 400px;
+  right: 150px;
+}
+.content-Image .content_image-img6 {
+  width: 350px;
+  height: 80px;
+  position: absolute;
+  top: 385px;
+  right: 0px;
+}
+.content-Image .content-price {
+  width: 130px;
+  height: 130px;
+  border: 3px dashed #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  outline: 8px solid red;
+  font-size: 20px;
+  color: #fff;
+  z-index: 7;
+  position: absolute;
+  top: 340px;
+  right: 450px;
+}
+/* Aside image block end */
+
+/* Price block starts */
+.content-Image .content-price p span {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+}
+.content-Image .content-price p sub {
+  position: relative;
+  top: -5px;
+  left: -8px;
+}
+.content-Image .content-price p .price {
+  font-size: 30px;
+}
+/* Price block ends */
+
+/* image block */
+#image-Block {
+  width: 100%;
+  margin: 3% 0%;
+}
+#image-Block article {
+  width: 90%;
+  height: 60vh;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+#image-Block article .first-image-block p {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  color: #fff;
+}
+#image-Block article .first-image-block span {
+  font-size: 25px;
+}
+
+#image-Block article .first-image-block img {
+  flex-basis: 50%;
+  height: 60vh;
+}
+.second-image-block {
+  position: relative;
+  flex-basis: 50%;
+}
+
+#image-Block article .second-image-block .second-content-image1 img {
+  width: 100%;
+  height: 27vh;
+}
+#image-Block article .second-image-block .second-content-image1 p {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  color: #fff;
+}
+#image-Block article .second-image-block .second-content-image1 span {
+  font-size: 25px;
+}
+
+#image-Block article .second-image-block .second-content-image2 img {
+  width: 100%;
+  height: 27vh;
+  position: absolute;
+  top: 205px;
+}
+#image-Block article .second-image-block .second-content-image2 p {
+  position: absolute;
+  top: 210px;
+  left: 30px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  color: #fff;
+}
+#image-Block article .second-image-block .second-content-image2 span {
+  font-size: 25px;
+}
+
+/* content image Menu-heading starts here */
+
+#content-menu-heading {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+#content-menu-heading h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 8px;
+  width: max-content;
+  font-family: "Antonio", sans-serif;
+  background-color: orange;
+  color: rgb(64, 14, 14);
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+#content-menu-heading h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  /* padding: 8px; */
+  width: max-content;
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Alfa Slab One", cursive;
+  margin: 0 auto;
+}
+#content-menu-heading > p {
+  font-size: 14px;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: rgb(64, 14, 14);
+  margin: 0 auto;
+}
+#content-menu-heading article {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#content-menu-heading article .content-image-menu1 {
+  flex-basis: 30%;
+  top: 50px;
+  left: 0;
+}
+
+#content-menu-heading article .content-image-menu1 img {
+  width: 30vw;
+  height: 50vh;
+}
+#content-menu-heading article .content-image-menu1 .shadow {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  left: 40px;
+}
+
+#content-menu-heading article .content-image-menu1 p {
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Poppins", sans-serif;
+}
+#content-menu-heading article .content-image-menu1 figcaption {
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Antonio", sans-serif;
+  font-size: 25px;
+}
+#content-menu-heading article .content-image-menu1 button {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 5vh;
+  padding: 20px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  /* text-align: center; */
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+}
+
+#content-menu-heading article .content-image-menu2 {
+  flex-basis: 30%;
+}
+#content-menu-heading article .content-image-menu2 img {
+  width: 30vw;
+  height: 50vh;
+}
+#content-menu-heading article .content-image-menu2 .shadow {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  left: 20px;
+}
+#content-menu-heading article .content-image-menu2 p {
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Poppins", sans-serif;
+}
+#content-menu-heading article .content-image-menu2 figcaption {
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Antonio", sans-serif;
+  font-size: 25px;
+}
+#content-menu-heading article .content-image-menu2 button {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 5vh;
+  padding: 20px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  /* text-align: center; */
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+}
+
+#content-menu-heading article .content-image-menu3 {
+  flex-basis: 30%;
+}
+#content-menu-heading article .content-image-menu3 img {
+  width: 30vw;
+  height: 50vh;
+}
+#content-menu-heading article .content-image-menu3 .shadow {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  left: 40px;
+}
+#content-menu-heading article .content-image-menu3 p {
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Poppins", sans-serif;
+}
+#content-menu-heading article .content-image-menu3 figcaption {
+  text-align: center;
+  color: rgb(64, 14, 14);
+  font-family: "Antonio", sans-serif;
+  font-size: 25px;
+}
+#content-menu-heading article .content-image-menu3 button {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 5vh;
+  padding: 20px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  /* text-align: center; */
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+}
+
+/* Event Block */
+#event-section {
+  width: 100%;
+  height: 80vh;
+  padding: 10%;
+  margin: 10% 0 10% 0;
+}
+#event-section article {
+  display: flex;
+  align-items: center;
+  box-shadow: 7px 7px 7px 5px lightgrey;
+  animation-duration: 15s;
+  animation-name: event;
+  animation-iteration-count: infinite;
+  transform: translate(10% 10%);
+  /* overflow: hidden; */
+}
+@keyframes event {
+  0% {
+    background-image: linear-gradient(to top, gray, rgb(218, 208, 208));
+  }
+  50% {
+    background-image: linear-gradient(
+      to top,
+      rgb(175, 156, 156),
+      rgb(148, 95, 95)
+    );
+  }
+  75% {
+    background-image: linear-gradient(
+      to top,
+      rgba(210, 199, 138, 0.281),
+      rgb(95, 148, 115)
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      to top,
+      rgba(105, 148, 118, 0.281),
+      rgb(50, 74, 59)
+    );
+  }
+}
+
+#event-section article .event-content {
+  flex-basis: 50%;
+}
+#event-section article .event-content h3 {
+  text-transform: uppercase;
+  color: rgb(64, 14, 14);
+  font-family: "Antonio", sans-serif;
+}
+#event-section article .event-content h2 {
+  text-transform: uppercase;
+  color: rgb(64, 14, 14);
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+  font-weight: 800;
+}
+#event-section article .event-content p {
+  color: rgb(64, 14, 14);
+  font-family: "Poppins", sans-serif;
+}
+#event-section article img {
+  flex-basis: 50%;
+}
+#event-section article .img-burger {
+  width: 48%;
+  height: 70vh;
+  background-image: url(./Assets/eventimg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: burger;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes burger {
+  0% {
+    background-image: url(https://b.zmtcdn.com/data/pictures/3/19629243/07530a4d727ff945a94d9299514ab1b9.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*);
+    /* z-index: 10; */
+    /* height: 400px;   */
+  }
+  50% {
+    background-image: url(./Assets/Burgerimage2.png);
+    /* z-index: ; */
+  }
+  75% {
+    background-image: url(./Assets/eventimg.jpg);
+  }
+  100% {
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/lszkekxmgfvvlagothny);
+    background-position: center;
+  }
+}
+
+/* Reservation section */
+
+#reserve-section {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+#reserve-section article {
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+}
+#reserve-section article h3 {
+  text-transform: uppercase;
+  color: rgb(64, 14, 14);
+  font-family: "Antonio", sans-serif;
+  text-align: center;
+}
+
+#reserve-section article h1 {
+  text-transform: uppercase;
+  color: rgb(64, 14, 14);
+  font-family: "Alfa Slab One", cursive;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+#reserve-section article figure .img1 {
+  position: absolute;
+  width: 10vw;
+  height: 30vh;
+  top: 0px;
+  left: 0;
+}
+#reserve-section article figure .img2 {
+  position: absolute;
+  width: 10vw;
+  height: 30vh;
+  right: 0;
+  bottom: 0;
+}
+#reserve-section article figure .img3 {
+  position: absolute;
+  width: 10vw;
+  height: 50vh;
+  top: 28%;
+  left: 8%;
+}
+#reserve-section article table {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+#reserve-section article table tr td input {
+  width: 450px;
+  height: 50px;
+  color: rgb(64, 14, 14);
+}
+#reserve-section article table tr td button {
+  display: flex;
+  background-color: red;
+  padding: 14px;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* footer starts here */
+
+footer {
+  width: 95%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(./Assets/bg_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  /* animation-name: footer-burger;
+  animation-duration: 15s; */
+}
+/* @keyframes footer-burger {
+  0% {
+    background-image:linear-gradient(to left,gray,black);
+  }
+  50% {
+    background-image:url(./Assets/bg_footer.png);
+  }
+  75% {
+    background-image: url(./Assets/eventimg.jpg);
+  }
+  100% {
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/lszkekxmgfvvlagothny);
+  }
+} */
+
+footer .about-burgerhouse {
+  flex-basis: 50%;
+}
+footer .about-burgerhouse span {
+  display: flex;
+}
+footer .about-burgerhouse span i {
+  color: #fff;
+  font-size: 5vw;
+  position: absolute;
+  top: 12%;
+  left: 4%;
+}
+footer .about-burgerhouse span h1 {
+  color: #fff;
+  font-size: 5vw;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+footer .about-burgerhouse p {
+  color: #fff;
+  width: 50%;
+  position: absolute;
+  top: 35%;
+  left: 4%;
+}
+footer .about-burgerhouse .copy-rights {
+  color: #fff;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  width: 50%;
+  position: absolute;
+  top: 90%;
+  left: 4%;
+}
+footer .about-address-social-media .location {
+  position: relative;
+  top: 150px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+footer .about-address-social-media .location i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+footer .about-address-social-media .location p {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+}
+
+footer .about-address-social-media .company-email {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  color: #fff;
+  position: relative;
+  top: 160px;
+}
+footer .about-address-social-media .company-email p {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+}
+footer .about-address-social-media .company-email i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+footer .about-address-social-media .multi-media-to-connect {
+  position: absolute;
+  top: 410px;
+}
+footer .about-address-social-media .multi-media-to-connect a {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
